@@ -18,8 +18,8 @@ p {
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 img {
-    width: 25%;
-    height: 25%;
+    width: 35%;
+    height: 35%;
     border-style: solid; 
     border-color: slategray;
 }
@@ -56,4 +56,20 @@ blockquote p {
 .nav a:hover {
     background-color: slategray;
     
+}
+.nav a:active {
+    color: #004D46;
+    
+}
+
+.footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pp149 {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
 }
