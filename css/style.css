@@ -1,36 +1,100 @@
 @charset "utf-8";
-/* CSS Document for my Assignment HTML doc*/
+/* CSS Document for my Assignments*/
 
-h1 {
+h1, h2 {
     font-size: 2em;
+    color: black;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    text-shadow: 2px 2px 3px cadetblue;
 }
+
+h2 {
+    font-size: 1.5em;
+}
+
 h3 {
     font-size: 1em;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
+
 h3 .sub {
     font-size: .75em;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
     color: dimgray;
 }
+
 p {
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
+
 img {
     width: 35%;
     height: 35%;
     border-style: solid; 
     border-color: slategray;
 }
+
 blockquote {
     padding-left: 50px;
     padding-right: 50px;
 }
+
 blockquote p {
     color: #2F4F4F;
 }
-.main {
+
+ul li {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color: slategray;
+    list-style-type: square;
+}
+
+ol li {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color: cadetblue;
+    list-style-type: lower-roman;
+}
+
+table {
+    width: 66%;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    border: 1px solid cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    width: 33%;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    border: 1px solid cadetblue;
+    background-color: cadetblue;
+}
+
+td, tr, th {
+    border: 1px solid cadetblue;
+    padding: 10px;
+}
+
+td:hover {
+    background-color: aquamarine;
+    color: cadetblue;
+}
+
+.table {
+    margin-top: 75px;
+    width: 100%;
+    text-align: center;
+}
+
+.mainStyle {
+    color: slategray;
+}
+
+#main {
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -66,6 +130,8 @@ blockquote p {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-weight: bold;
+    color: slategray;
 }
 
 .pp149 {
