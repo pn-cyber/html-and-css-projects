@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document for my Assignments*/
+
+h1, h2 {
+    font-size: 2em;
+    color: black;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    text-shadow: 1px 1px 1px red;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+h3 .sub {
+    font-size: .75em;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color: dimgray;
+}
+
+p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+footer, form {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+#footer-wrapper {
+    margin-top: 50px;
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+}
+
+form input {
+    background-color: aliceblue;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+}
+
+form .input1{
+    margin-left: 15px;
+}
+form .input2{
+    margin-left: 18px;
+}
+form .input3{
+    margin-left: 53px;
+}
+form .input4{
+    margin-left: 26px;
+}
+
+form .formButton {
+    width: 125px;
+    padding: 5px 15px 5px 15px;
+    margin: 10px 0px 0px 180px;
+    font-weight: bold;
+    color:cadetblue
+}
+
+form .formButton:hover {
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+img {
+    width: 35%;
+    height: 35%;
+    border-style: solid; 
+    border-color: slategray;
+}
+
+blockquote {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+blockquote p {
+    color: #2F4F4F;
+}
+
+ul li {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color: slategray;
+    list-style-type: square;
+}
+
+ol li {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color: cadetblue;
+    list-style-type: lower-roman;
+}
+
+table {
+    width: 66%;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    border: 1px solid cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    width: 33%;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    border: 1px solid cadetblue;
+    background-color: cadetblue;
+}
+
+td, tr, th {
+    border: 1px solid cadetblue;
+    padding: 10px;
+}
+
+td:hover {
+    background-color: aquamarine;
+    color: cadetblue;
+}
+
+.table {
+    margin-top: 75px;
+    width: 100%;
+    text-align: center;
+}
+
+.mainStyle {
+    color: slategray;
+}
+
+#main {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.nav {
+    list-style-type: none;
+    text-align: left; 
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+.nav a {
+    display: inline-block;
+    font-size: 16px;
+    padding: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color: azure;
+    background-color: #2F4F4F;
+    margin-right: 8px;
+    text-decoration: none
+    
+}
+.nav a:hover {
+    background-color: slategray;
+    
+}
+.nav a:active {
+    color: #004D46;
+    
+}
+
+.footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    color: slategray;
+}
+
+.pp149 {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
