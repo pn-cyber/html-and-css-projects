@@ -2,14 +2,14 @@
 /* CSS Document for my Assignments*/
 
 h1, h2 {
-    font-size: 2em;
+    font-size: 3em;
     color: black;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
     text-shadow: 1px 1px 1px red;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 h3 {
@@ -38,36 +38,43 @@ footer, form {
 }
 
 form input {
-    background-color: aliceblue;
+    background-color: lightgray;
     padding: 5px;
     margin-bottom: 5px;
     width: 200px;
 }
 
-form .input1{
-    margin-left: 15px;
-}
-form .input2{
-    margin-left: 18px;
-}
-form .input3{
-    margin-left: 53px;
-}
-form .input4{
-    margin-left: 26px;
+form input {
+    border-radius: 25px;
+    border: 2px solid red;
+    padding: 15px;
+    width: 400px;
+    height: 15px; 
 }
 
 form .formButton {
     width: 125px;
+    height: 35px;
     padding: 5px 15px 5px 15px;
-    margin: 10px 0px 0px 180px;
+    color:red;
+    background-color: black;
     font-weight: bold;
-    color:cadetblue
 }
 
 form .formButton:hover {
-    background-color: cadetblue;
-    color: aliceblue;
+    background-color: lightgray;
+    color: black;
+    float: left;
+}
+
+form .terms {
+    float: right;
+    margin-top: 7px;
+}
+
+form .form-submit-wrapper {
+    margin: 25px 0px 25px 0px;
+    width: 275px;
 }
 
 img {
