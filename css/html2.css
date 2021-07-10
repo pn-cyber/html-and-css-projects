@@ -1,0 +1,11 @@
+/* designing for Basic_HTML_2 */
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    font-size: 1.2em;
+    color: red;
+    background: black;
+}
