@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document for my One Page Website Assignment*/
+
+html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, "sans-serif";
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: rgb(60, 0, 0);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    color: white;
+    letter-spacing: 1px;
+}
+
+/*************
+Contact Styles
+*************/
+#contact {
+    background-color: #770707;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.newsletter form {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8f8d8d;
+    outline: none;
+    padding: 12px 12px;
+    width: 40%;
+    border: 1px solid #808080;
+    margin: 2% auto;
+    border-radius: 25px;
+    background: rgb(255, 158, 158);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.newsletter input[type="text"] {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8f8d8d;
+    letter-spacing: 1px;
+    outline: none;
+    padding: 2% 1% 2% 7%;
+    width: 86%;
+    border-top: 1px solid #0d0909;
+    border-right: 2px solid #494242;
+    border-bottom: 2px solid #494242;
+    border-left: 1px solid #0d0909;
+    margin: 10px 1em;
+    border-radius: 25px;
+    background: #1b1313;
+    box-shadow: inset 0px 3px 0px rgba(5, 5, 5, 0.15);
+}
+
+.newsletter input[type="text"]:hover {
+    box-shadow: 0 0 18px rgba(100, 0, 0, 0.8)
+}
+
+.form-spacer {
+    padding: 30px 39px;
+}
+
+.submit input[type="submit"] {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: red;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 20px 15px;
+    padding: 1% 1%;
+    width: 25%;
+    transition: border-color 0.3s color 0.3s background-color 0.3s;
+    border-radius: 25px;
+    background-color: #1b1313;
+    box-shadow: 1px 1px 15px 0 rgb(255, 2, 2);
+}
+
+.submit input[type="submit"]:hover {
+    color: #1b1313;
+    background-color: red;
+    box-shadow: inset 4px 8px 15px 0 rgba(0, 0, 0, 0.5);
+    transition-duration: .5s;
+    transform-box: red;
+
+}
