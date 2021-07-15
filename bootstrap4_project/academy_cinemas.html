@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+    
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <style>
+        .showtime-border {
+             border: 1px solid #ccc;
+        } 
+    </style>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Academy Cinemas</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-info sticky-top">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#about">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#showtimes">Showtimes</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#deals">Deals</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-primary my-2 my-sm-0 text-light" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        
+        <div class="jumbotron jumbotron-fluid bg-info text-center">
+            <div class="container">
+                <h1 class="display-4 text-light">Academy Cinemas</h1>
+                <p class="lead text-light">Sit back, relax and enjoy the show...</p>
+            </div>
+        </div>
+
+        <!-- About -->
+        <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                
+                    <img class="img-fluid" src="./img/pdx.jpg" alt="">
+
+                </div>
+                <div class="col-sm">
+
+                    <h3>Accommodations</h3>
+                    <p>Located in beautiful Portland, Oregon's pearl district, our reels have been spinning since 1959.</p>
+                    <p>Showin our guests a great time is our passion and seeing their smiles is our pleasure!</p>
+                    <p>All of our auditoriums are equiped with our brand new, Christie 30&reg; sound systems!</p>
+                    <p>Relax in our extra-wide, plush cushioning recliners. Our seating arrangement is disability friendly &#9855;.</p>
+                </div>
+                <div class="col-sm">  
+                    <h3>Now Playing</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#showtimes">Kong: Skull Island</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#showtimes">Ghost in the Shell</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#showtimes">Beauty and the Beast</a>
+                            </li>
+                        </ul>   
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- End About -->
+
+        <!-- Showtimes -->
+        <section id="showtimes">
+            <div class="container">
+
+                <h1 class="text-center my-5">Showtimes</h1>
+
+                <!-- Begin Featured Movies -->
+                <div class="card-deck">
+
+                    <!-- Showcase 1 -->
+                    <div class="card">
+                      
+                        <!-- Substituting this image display with background image so images display as the same width and height.
+                             The other method I could have employed, was to edit in photoshop:
+
+                        <img class="card-img-top" src="./img/kongskullisland.jpg" alt="Kong: Skull Island" title="Kong: Skull Island"> -->
+                      
+                      <div style="background-image: url('./img/kongskullisland.jpg'); background-size: 340px 199px; width: 340px; height: 199px;"></div>
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Kong: Skull Island</h5>
+                        <p class="card-text">A team of scientists explore an unchartered island in the Pacific, venturing into the domain of the mighty Kong, and must fight to escape a primal Eden.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">
+                            <ul class="nav list-inline">
+                                <li class="nav-item">
+                                    <span class="badge badge-pill badge-info">12:00pm</span>
+                                </li>
+                                <li class="nav-item">
+                                    <span class="badge badge-pill badge-info">1:30pm</span>
+                                </li>
+                                <li class="nav-item">
+                                    <span class="badge badge-pill badge-info">3:00pm</span>
+                                </li>
+                                <li class="nav-item">
+                                    <span class="badge badge-pill badge-info">5:30pm</span>
+                                </li>
+                                <li class="nav-item">
+                                    <span class="badge badge-pill badge-info">7:00pm</span>
+                                </li>
+                                <li class="nav-item">
+                                    <span class="badge badge-pill badge-info">9:30pm</span>
+                                </li>
+                            </ul>
+                        </small>
+                      </div>
+                    </div>
+                    <!-- End Showcase 1 -->
+
+                    <!-- Showcase 2 -->
+                    <div class="card">
+                        
+                        <!-- Substituting this image display with background image so images display as the same width and height.
+                             The other method I could have employed, was to edit in photoshop:
+
+                        <img class="card-img-top" src="./img/ghostintheshell.jpg" alt="Ghost in the Shell" title="Ghost in the Shell"> -->
+
+                        <div style="background-image: url('./img/ghostintheshell.jpg'); background-size: 340px 199px; width: 340px; height: 199px;"></div>
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Ghost in the Shell</h5>
+                            <p class="card-text">In the near future, Major Mila Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">
+                                <ul class="nav list-inline">
+                                    <li class="nav-item">
+                                        <span class="badge badge-pill badge-info">12:00pm</span>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span class="badge badge-pill badge-info">1:30pm</span>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span class="badge badge-pill badge-info">3:00pm</span>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span class="badge badge-pill badge-info">5:30pm</span>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span class="badge badge-pill badge-info">7:00pm</span>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span class="badge badge-pill badge-info">9:30pm</span>
+                                    </li>
+                                </ul>
+                            </small>
+                        </div>
+                    </div>
+                    <!-- End Showcase 2-->
+
+                    <!-- Showcase 3 -->
+                    <div class="card">
+                        <!-- Substituting this image display with background image so images diaply as the same width and height.
+                             The other method I could have employed, was to edit in photoshop:
+
+                        <img class="card-img-top" src="./img/beautyandthebeast.jpg" alt="Beauty and the Beast" title="Beauty and the Beast"> -->
+
+                        <div style="background-image: url('./img/beautyandthebeast.jpg'); background-size: 340px 199px; width: 340px; height: 199px;"></div>
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Beauty and the Beast</h5>
+                            <p class="card-text">A selfish prince is cursed to become a monster for the rest of his life, unless he learns to fall in love with a beautiful young woman, he keeps prisoner.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">
+                                <ul class="nav list-inline">
+                                    <li class="nav-item">
+                                        <span class="badge badge-pill badge-info">12:00pm</span>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span class="badge badge-pill badge-info">1:30pm</span>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span class="badge badge-pill badge-info">3:00pm</span>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span class="badge badge-pill badge-info">5:30pm</span>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span class="badge badge-pill badge-info">7:00pm</span>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span class="badge badge-pill badge-info">9:30pm</span>
+                                    </li>
+                                </ul>
+                            </small>
+                        </div>
+                    </div>
+                    <!-- End Showcase 3 -->
+
+                </div>
+                <!-- End Featured Movies-->
+
+            </div>
+        </section>
+        <!-- End Showtimes -->
+
+        <!-- Deals -->
+        <section id="deals">
+        <div class="container" style="width: 40rem;">
+            <div  class="text-center">
+                <form>
+                    <h1 class="text-primary my-5">Sign up for movie club rewards!</h1>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <!-- End Deals -->
+
+        <!-- Footer -->
+        <div class="container my-5">
+            <ul class="nav list-inline">
+                <li class="nav-item">
+                    <small><a class="nav-link active" href="#">Movie Rewards</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link active" href="#">Movies@news.org</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link active" href="#">Info@academycinmas.com</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link active" href="#">&copy;2021 Academy Cinemas&reg;</a></small>
+                </li>
+            </ul>
+        </div>
+        <!-- End Footer -->
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
