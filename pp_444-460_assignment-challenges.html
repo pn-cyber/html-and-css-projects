@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>W3SCHOOLS ASSIGNMENTS CHALLENGES</title>
+
+    <!-- Media Query Check -->
+    <meta name="viewport" content="width=device-width">
+
+    <!-- CSS -->
+    <style>
+
+      html, body {
+        margin: 0;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        border: 1px solid teal;
+        width: 100%;
+      }
+
+      th {
+        background-color: teal;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        padding: 8px;
+      }
+
+      td {
+        padding: 4px;
+        border: 1px dotted teal;
+      }
+
+      h1, h3 {
+        font-size: 5rem;
+        font-weight: 900;
+        color:darkcyan;
+        text-shadow: 2px 2px 6px #000;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 5rem;
+      }
+
+      h3 {
+        font-size: 3rem;
+      }
+
+      #nav-wrap {
+        background-color: teal;
+        position: fixed;
+        width: 100%;
+        padding: 12px;
+        z-index: 100;
+      }
+
+      #nav-wrap .menu-container {
+        display: block;
+        padding: 12px;
+      }
+
+      #nav-wrap ul {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+      }
+
+      #nav-wrap li {
+        display: inline-block;
+        color: white;
+        font-weight: bold;
+        list-style-type: none;
+        margin-right: 12px;
+      }
+
+      #nav-wrap a {
+        background-color: white;
+        color: teal;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 30px;
+        cursor: pointer;
+      }
+
+      #nav-wrap a:hover {
+        background-color:palegreen;
+        box-shadow: inset 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+        transition-duration: .5s;
+      }
+
+      #page-wrapper {
+        position: relative;
+        min-height: 100vh;
+        margin: 0;
+      }
+
+      #content-wrap {
+        position: absolute;
+        margin-top: 100px;
+        width: 100%;
+        padding-bottom: 2.5rem; /* Footer height */
+      }
+
+      #footer {
+        text-align: center;
+        font-variant: small-caps;
+        font-weight: bold;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem; 
+      }
+
+      .container {
+        width: 450px;
+        display: block;
+        margin: 0 auto 100px auto;
+        text-align: center;
+        position: relative;
+      }
+
+      .container .buddies-grey img {
+        filter: grayscale(100%);
+        width: 75%;
+        height: 75%;
+        border-radius: 180px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .container .text-overlay {
+        color:white;
+        font-weight: 900;
+        font-size: x-large;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: -50px;
+        text-shadow: 2px 2px 4px black;
+      }
+
+      .container .col-layout ul {
+        list-style-type: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        position: relative;
+      }
+
+      .container .col-layout li {
+        float: left;
+        margin-right: 1px;
+        background-color: paleturquoise;
+        color: teal;
+        width: 27%;
+        height: 450px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+      }
+
+      .container .li-padding {
+        padding: 8px;
+      }
+
+      .container .image {
+        opacity: 1;
+        display: block;
+        width: 75%;
+        height: 75%;
+        margin: 0 auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+
+      .container .text-overlay-fade {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .container:hover .image {
+        opacity: 0.75;
+      }
+
+      .container:hover .text-overlay-fade {
+        opacity: 1;
+      }
+
+      .container .text {
+        background-color: #04AA6D;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+
+      .container .hover-effect p:hover {
+        color: teal;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .container .video {
+        width: 100%;
+        height: 100%;
+      }
+
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+        margin-bottom: 100px;
+      }
+      
+      @media screen and (max-width: 600px) {
+        html {
+          background-color: rgb(200, 250, 225);
+        }
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <!-- Nav -->
+      <div id="nav-wrap">
+        <div class="menu-container">
+            <ul>
+                <li><a href="#challenge1">Challenge 1</a></li>
+                <li><a href="#challenge2">Challenge 2</a></li>
+                <li><a href="#challenge3">Challenge 3</a></li>
+                <li><a href="#challenge4">Challenge 4</a></li>
+                <li><a href="#challenge5">Challenge 5</a></li>
+                <li><a href="#challenge6">Challenge 6</a></li>
+                <li><a href="#challenge6">Challenge 7</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Nav -->
+    </header>
+
+    <!-- Page Wrap -->
+    <div id="page-wrapper">
+
+      <!-- Content Wrap -->
+      <div id="content-wrap">
+
+        <h1>W3SCHOOLS<br>ASSIGNMENT CHALLENGES</h1>
+        <h3>Pp 444 - 460</h3>
+
+        <!-- Containers -->
+        <div class="container">
+          <h2 id="challenge1">New HTML Skill - Code Tag</h2>
+          <code>
+            a = 8;
+            b = 16;
+            x = 2;
+            y = 4;
+            z = ((a + b) * x) / y;
+          </code> 
+        </div>
+
+        <div class="container">
+          <h2 id="challenge2">New CSS Skill - Image Filter</h2>
+          <div class="buddies-grey">
+            <img src="./images/my-pals.jpg" alt="My Buddies">
+          </div>
+          <div class="text-overlay">My Buddies</div>
+        </div>
+
+        <div class="container">
+          <h2 id="challenge3">Creating an HTML Table</h2>
+          <table>
+            <tr>
+              <th>Header 1</th>
+              <th>Header 2</th>
+              <th>Header 3</th>
+            </tr>
+            <tr>
+              <td>Col 1</td>
+              <td>Col 2</td>
+              <td>Col 3</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="container">
+          <h2 id="challenge4">Creating Columns</h2>
+          <div class="col-layout">
+            <ul>
+              <li>
+                <div class="li-padding">
+                  Col 2
+                </div>
+              </li>
+              <li>
+                <div class="li-padding">
+                  Col 2
+                </div>
+              </li>
+              <li>
+                <div class="li-padding">
+                  Col 3 
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="container">
+          <h2 id="challenge5">Hover Effect</h2>
+          <div  class="hover-effect">
+            <p>This is how we hover. Go ahead, mouse
+               <br>over and see for yourself. =)</p>
+          </div>
+        </div>
+
+        <div class="container">
+          <h2 id="challenge6">Image Hover Challenge</h2>
+          <img class="image" src="./images/my-pals.jpg" alt="My Buddies">
+          <div class="text-overlay-fade">
+              <div class="text">My Buddies</div>
+          </div>
+        </div>
+
+        <div class="container">
+          <h2 id="challenge7">Embedding Videos</h2>
+          <div>
+            <video autoplay muted loop src="videos/video.mp4" class="video"></video>
+          </div>
+          <div class="text-overlay">Palm Tree Paradise!</div>
+        </div>
+        <!-- End Containers -->
+
+        <!-- Footer -->    
+        <footer>
+          <div id="footer">
+            <p>This is an HTML footer.</p>
+          </div>
+        </footer>
+        <!-- End Footer -->
+
+      </div>  
+      <!-- End Content Wrap -->
+    
+    </div>
+    <!-- End Page Wrap -->
+    
+  </body>
+</html>
