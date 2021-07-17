@@ -17,8 +17,8 @@ I am currently enrolled in the Tech Academy’s Cyber Security Boot Camp, and am
 ## Recent HTML &amp; CSS Projects
 
 
-* [One Page Site Containing Various Assignments/Challenges](pn-cyber/html-and-css-projects/blob/github-assignment/pp_444-460_assignment-challenges.html)
+* [One Page Site Containing Various Assignments/Challenges](https://github.com/pn-cyber/html-and-css-projects/blob/github-assignment/pp_444-460_assignment-challenges.html)
 
-* [Basic One Page Website Project](pn-cyber/html-and-css-projects/tree/github-assignment/basic-html-website-project)
+* [Basic One Page Website Project](https://github.com/pn-cyber/html-and-css-projects/tree/github-assignment/basic-html-website-project)
 
-* [Final Project & The Start of My Portfolio](pn-cyber/html-and-css-projects/tree/github-assignment/Final-Project)
+* [Final Project & The Start of My Portfolio](https://github.com/pn-cyber/html-and-css-projects/tree/github-assignment/Final-Project)
