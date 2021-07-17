@@ -73,6 +73,52 @@ img {
     margin-right: auto;
 }
 
+.image-text-overlay {
+    color:white;
+    font-weight: 900;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin-top: -350px;
+    text-shadow: 1px 2px 4px black;
+  }
+
+  .image-text-overlay-dark {
+    color: rgb(0, 100, 100);
+    font-weight: 900;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin-top: -350px;
+    text-shadow: 1px 2px 4px black;
+  }
+
+  .image-text-overlay-dark-position-bottom {
+    color: rgb(0, 100, 100);
+    font-weight: 900;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 85%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin-top: -350px;
+    text-shadow: 1px 2px 4px black;
+  }
+
+  .image-text-overlay-font-adjust-smaller {
+      font-size: 30px;
+  }
+
 /* Image element hover effects */
 img:hover {
 	filter: grayscale(0%);  /* Brings back most of the image's color when hovered over */
@@ -98,6 +144,7 @@ footer {
 
 /***** NAVBAR STYLING *****/
 .Navbar {
+    max-height: 51px; /* retains the height of navbar during animation* /
     overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
     background-color: rgb(0, 100, 100); /* This colors the navbar black */
     position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
@@ -145,14 +192,15 @@ footer {
 
 /* Navbar hover effects */
 .Navbar a:hover {
-    background-color: #f4f4f4; /* Defines the background color that will display when you hover over the link */
-    color: black; /* This defines the font color that will display when navbar a elements are hovered over */
+    background-color: #bee9e9; /* Defines the background color that will display when you hover over the link */
+    color: rgb(0, 100, 100); /* This defines the font color that will display when navbar a elements are hovered over */
     font-weight: bold; /* This makes the text on the navbar bold when hovered over */
 }
 
 /* Navbar home button */
 .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
-    background-color: darkgray;
+    background-color: rgb(0, 50, 50);
+    color: #bee9e9;
 }
 /***** END OF NAVBAR STYLING *****/
 
