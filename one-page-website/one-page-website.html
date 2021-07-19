@@ -4,6 +4,7 @@
         <title>Schecter Independent Artists</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="./css/one_page_website.css">
+        <link rel="stylesheet" href="./css/animations.css">
     </head>
     
     <body>
@@ -12,13 +13,13 @@
         
         <!-- Navigation -->
         <nav>
-            <div>
-                <div>
+            <div class="menu-container">
+                <div class="menu">
                     <ul>
-                        <a href="#home"><li>HOME</li></a>
-                        <a href="#gallery"><li>GALLERY</li></a>
-                        <a href="#videos"><li>VIDEOS</li></a>
-                        <a href="#contact"><li>NEWSLETTER</li></a>
+                        <a href="#home"><li>Home</li></a>
+                        <a href="#gallery"><li>Gallery</li></a>
+                        <a href="#videos"><li>Videos</li></a>
+                        <a href="#contact"><li>Newsletter</li></a>
                     </ul>
                 </div>
             </div>
@@ -170,8 +171,20 @@
                         </div>
                         -->
                     
-                        <div>
+                        <div class="video">
                             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GZ7W3JvZBJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
+                        <div class="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Z3dO4xdfJzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
+                        <div class="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ktaeeAxfQSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        
+                        <div class="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/HoFkPedqjco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         
                     </div>
@@ -194,15 +207,15 @@
                         <p>Please provide us with your basic contact information.</p>
                         <div>
                             <form action="" method="post">
-                                <input class="rsvp" type="text" value="First Name"><br>
-                                <input class="rsvp" type="text" value="Last Name"><br>
-                                <input class="rsvp" type="text" value="Email Address"><br>
-                                <input class="rsvp" type="text" value="Phone Number"><br>
+                                <input type="text" value="" placeholder="First Name"><br>
+                                <input type="text" value="" placeholder="Last Name"><br>
+                                <input type="text" value="" placeholder="Email Address"><br>
+                                <input type="text" value="" placeholder="Phone Number"><br>
                                 <div class="submit">
                                     <input type="submit" value="Submit">
                                 </div>
                                 <div class="terms">
-                                    <label>Terms &amp; Conditions</label>
+                                    <label><a href="">Terms &amp; Conditions</a></label>
                                 </div>
                             </form>
                         </div>
@@ -216,7 +229,7 @@
     <footer>
         
         <!-- Begin Footer -->
-        <div id="footer-wrapper">
+        <div id="footer">
             Copyright Info<br>
             Contact Info<br>
             Terms of Service &amp; Privacy Policy

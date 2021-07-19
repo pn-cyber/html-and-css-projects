@@ -10,6 +10,7 @@ html {
 }
 
 body {
+    margin: 0%;
     font-size: 14px;
     margin: 0;
     font-family: "Helvetica Neue", Arial, "sans-serif";
@@ -23,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
     font-variant: small-caps;
     color: white;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 h1, h2 {
@@ -31,11 +33,157 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 4.5em;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 4em;
+}
+
+p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading-padding {
+    padding-bottom: 40px;
+}
+
+section {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.navbar {
+    height: 105px;
+    max-height: 340px;
+    display: block;
+}
+
+.container {
+    width: 50%;
+}
+
+.container,
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    width: 75%;
+    background-color: rgb(22, 22, 22); /* rgb(255, 170, 100); */
+    box-shadow: 2pxp p2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.clearfix:after,
+.container:after,
+.navbar:after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* This ensures that the images cannot
+       render outside of their container
+       without forcing any scrollbars */
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.menu-container {
+    max-height: 340px;
+    margin: 0% auto;
+    margin-top: -25px;
+    content: " ";
+    /* top: 0;
+    left: 0; */
+    /* position: absolute; */ /* to the top edge of the screen */
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+}
+
+/******************
+Home Section Styles
+******************/
+#home {
+    background: url(../images/thumbs/nick-johnston-thumb.png) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 250px; /* This is a spacer before the Main Title Logo */
+    padding-bottom: 600px; /* This is a space after the Main Title Logo */
+    color: #fff;
+}
+
+.head-main h1 {
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+    font-variant: small-caps;
+    background-color: rgba(50, 50, 4950, 0.3);
+    letter-spacing: 5pt;
+    word-spacing: 21pt;
+    font-size: 5.0em;
+    line-height: 2;
+    font-weight: 900;
+    border: 5px double white;
+    padding: 10px 5px;
+}
+
+.head-sub-main {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 50px 20px 10px 20px;
+    text-transform: uppercase;
+}
+
+.head-last {
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 20px 20px 20px;
+    border: 1px dotted #fff;
+    padding: 5px;
+}
+
+/*************
+Contact Styles
+*************/
+.video-container {
+    margin: 0% auto;
+}
+.video {
+    float: left;
+    margin: 10px;
 }
 
 /*************
@@ -116,4 +264,58 @@ Contact Styles
     transition-duration: .5s;
     transform-box: red;
 
+}
+
+.terms a {
+    text-decoration: none;
+    color: #333;
+}
+
+.terms a:hover {
+    text-decoration: none;
+    color: #1b1313;
+}
+
+/************ 
+Footer Styles
+************/
+#footer {
+    background-color: rgba(100, 0, 0, 0.3);
+    color:rgb(145, 145, 145);
+    text-shadow: 2px 2px 8px 0 (0, 0, 0, 0.4);
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+}
+
+/* **********
+Media Queries
+************/
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main {
+        font-size: 28px;
+    }
+}
+
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main {
+        font-size: 24px;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
 }

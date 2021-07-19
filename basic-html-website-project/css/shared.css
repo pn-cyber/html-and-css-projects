@@ -208,7 +208,7 @@ Contact Styles
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(100, 65, 0, 0.3);
+    background-color: rgb(255, 200, 155); /* rgb(255, 170, 100); */
     box-shadow: 2pxp p2px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -221,7 +221,7 @@ Contact Styles
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(100, 65, 0, 0.3)
+    background-color: rgb(255, 200, 155);
 }
 
 .reservation h2 {
